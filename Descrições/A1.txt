@@ -1,0 +1,11 @@
+Funcionalities :
+
+- registar utilizador (equipa, treinador/professor/ organização)
+
+- login de utilizadores
+
+- eliminar utilizadores 
+
+- fórum de debate do regulamento (comentarios de discução [e votos nos comentários])  
+
+- 
