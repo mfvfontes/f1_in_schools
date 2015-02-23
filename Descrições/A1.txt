@@ -8,4 +8,19 @@ Funcionalities :
 
 - fórum de debate do regulamento (comentarios de discução [e votos nos comentários])  
 
-- 
+- editar página de equipa(nome equipa, nome dos constituintes, nome do treinador/professor, 
+                  região, caracteristicas do carro, etc)
+
+- obtenção dos numeros totais por parte da organização para efeitos de estatistica
+                          ( número total de participantes em cada estado da competição e no total...)
+
+- atribuir competições a cada equipa (por parte da organização)
+
+- atribuir pontuação ( para ranking de equipas)
+
+- interação entre as equipas através de um sistema de rede social (circulos de amigos
+                      likes, votações ,etc)
+
+- interação por parte do público através das aplicações facebook, twiter e outras
+                      ( aqule motor de comentarios e likes)
+
