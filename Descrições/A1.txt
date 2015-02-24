@@ -2,14 +2,20 @@ Funcionalities :
 
 - registar utilizador (equipa, treinador/professor/ organização)
 
-- login de utilizadores
+- login/logout de utilizadores
 
 - eliminar utilizadores 
+
+- editar utilizador
+
 
 - fórum de debate do regulamento (comentarios de discução [e votos nos comentários])  
 
 - editar página de equipa(nome equipa, nome dos constituintes, nome do treinador/professor, 
                   região, caracteristicas do carro, etc)
+
+
+
 
 - obtenção dos numeros totais por parte da organização para efeitos de estatistica
                           ( número total de participantes em cada estado da competição e no total...)
@@ -18,9 +24,29 @@ Funcionalities :
 
 - atribuir pontuação ( para ranking de equipas)
 
+
+
+
 - interação entre as equipas através de um sistema de rede social (circulos de amigos
                       likes, votações ,etc)
 
 - interação por parte do público através das aplicações facebook, twiter e outras
                       ( aqule motor de comentarios e likes)
+
+
+
+	O sistema deverá oferecer facilidades de registar, fazer login/logout, eliminar e editar utilizadores e 
+facilidades na obtenção de estatisticas referentes a cada competição e a cada equipa.
+	A aplicação deverá permitir a interação entre equipas (semelhante a uma rede social),
+interação entre o público da competição e os participantes(do mesmo genero) e a discução do regulamento 
+da competição através de uma plataforma à semelhança de um fórum.
+
+
+	The system should provide facilities to register, login / logout, delete and edit users and facilities to obtain statistics for each competition and each team.
+	The application should allow interaction between teams (similar to a social network), interaction between the public and the competition participants (of the same gender)
+and the discussion of the competition regulation through a platform like a forum.
+
+
+
+
 
