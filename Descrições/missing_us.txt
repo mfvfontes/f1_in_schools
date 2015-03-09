@@ -1,0 +1,9 @@
+Missing User Stories:
+
+- Public information (specify what is public)
+- Password Recovery
+- Search Friends
+- Communicate with friends (participants)
+- Accept invite (accounts creation)
+- Check scorecard
+- Edit scorecard
