@@ -20,7 +20,7 @@
             <li class="sidebar-brand">
                 <a href="#">
 
-                  <img src="assets/F1_logo.png" class="img-responsive" alt="F1 in Schools">
+                    <img src="assets/F1_logo.png" class="img-responsive" alt="F1 in Schools">
 
                 </a>
             </li>
@@ -51,19 +51,41 @@
     <div id="page-content-wrapper">
         <div class="container-fluid">
 
-            <div class="row">
+            <div class="row header">
+                <div class="col-sm-2 col-md-2 col-lg-2 logo">
+
+                    <img src="assets/m_neto.jpg" alt="Image">
+
+                </div>
                 <div class=" col-sm-10 col-md-10 col-lg-10">
                     <h5>User</h5>
                     <h1>Miguel Neto</h1> <br>
 
                 </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-
-                    <img src="assets/m_neto.jpg" class="pull-right" alt="Image">
-
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <ul class="list-group">
+                        <li class="list-group-item text-muted" contenteditable="false">Profile</li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Birth Date
+                            </strong>
+                        </span>
+                            15/05/1997
+                        </li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Team Role
+                            </strong>
+                        </span>
+                            Graphic Designer
+                        </li>
+                    </ul>
                 </div>
             </div>
-
             <div class="row">
                 <ul class="list-group">
                     <li class="list-group-item text-muted" contenteditable="false">Profile</li>
@@ -90,6 +112,14 @@
                             </strong>
                         </span>
                         Graphic Designer
+                    </li>
+                    <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Contact
+                            </strong>
+                        </span>
+                        <a href="mailto:geral.spectrum@gmail.com">miguel.spectrum@gmail.com</a>
                     </li>
                 </ul>
 

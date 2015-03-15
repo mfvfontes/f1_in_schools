@@ -65,3 +65,7 @@ h4 {
 .row.header {
     text-align: inherit;
 }
+
+.row.header > .logo {
+    text-align: center;
+}

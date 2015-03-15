@@ -52,14 +52,14 @@
         <div class="container-fluid">
 
             <div class="row header">
+                <div class="col-sm-2 col-md-2 col-lg-2 logo">
+
+                    <img src="assets/s_logo.jpg" alt="Image">
+
+                </div>
                 <div class=" col-sm-10 col-md-10 col-lg-10">
                     <h5>Team</h5>
                     <h1>Spectrum <small>Strength in Effort</small></h1> <br>
-
-                </div>
-                <div class="col-sm-2 col-md-2 col-lg-2">
-
-                    <img src="assets/s_logo.jpg" class="pull-right" alt="Image">
 
                 </div>
             </div>
@@ -183,11 +183,9 @@
 
                     <!-- Left and right controls -->
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
