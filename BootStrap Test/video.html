@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video Streaming</title>
+    <meta charset="UTF-8">
+    <meta name=description content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/style.css" rel="stylesheet">
+    <link href="assets/sidebar.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a href="#">
+
+                    <img src="assets/F1_logo.png" class="img-responsive" alt="F1 in Schools">
+
+                </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+                <a href="#">Profile</a>
+            </li>
+            <li>
+                <a href="#">Team</a>
+            </li>
+            <li class="divider"> </li>
+            <li>
+                <a href="#">Edit Profile</a>
+            </li>
+            <li>
+                <a href="#">Insert Photo</a>
+            </li>
+			
+			<li>
+                <a href="#">Insert Video</a>
+            </li>
+			
+            <li class="divider"> </li>
+            <li>
+                <a href="#">Contacts </a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+
+            <div class="row header">
+                <div class=" col-sm-10 col-md-10 col-lg-10">
+                    <h5>Team</h5>
+                    <h1>Spectrum <small>Video Streaming</small></h1> <br>
+
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+
+                    <img src="assets/s_logo.jpg" class="pull-right" alt="Image">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <ul class="list-group">
+                        <li class="list-group-item text-muted" contenteditable="false">Video Info</li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Contact
+                            </strong>
+                        </span>
+                            <a href="mailto:geral.spectrum@gmail.com">geral.spectrum@gmail.com</a>
+                        </li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Location
+                            </strong>
+                        </span>
+                            Chicago, USA
+                        </li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Date of Creation
+                            </strong>
+                        </span>
+                            24/11/2014
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <ul class="list-group">
+                        <li class="list-group-item text-muted" contenteditable="false">Competition Info</li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Name
+                            </strong>
+                        </span>
+                            Chicago race
+                        </li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Winner
+                            </strong>
+                        </span>
+                            Márcio Fontes
+                        </li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                              Best Player
+                            </strong>
+                        </span>
+                           Joel Carneiro
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            			
+			<div class="container">            
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-8">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/L-NQk4n7BX0?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+ </div>
+           
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<!-- Menu Toggle Script -->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+</body>
+</html>
