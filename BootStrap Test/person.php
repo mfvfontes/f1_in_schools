@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Title</title>
+    <title>Your Profile</title>
     <meta charset="UTF-8">
     <meta name=description content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="col-sm-6 col-md-6 col-lg-8 pull-right">
                     <ul class="list-group">
                         <li class="list-group-item text-muted" contenteditable="false">Profile</li>
                         <li class="list-group-item text-right">
@@ -86,8 +86,10 @@
                     </ul>
                 </div>
             </div>
+			
             <div class="row">
                 <ul class="list-group">
+				<div class="col-sm-6 col-md-6 col-lg-8 pull-left">
                     <li class="list-group-item text-muted" contenteditable="false">Profile</li>
                     <li class="list-group-item text-right">
                         <span class="pull-left">
@@ -123,11 +125,18 @@
                     </li>
                 </ul>
 
-                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+               
             </div>
+			</div>
 
         </div>
     </div>
+	
+	
+	 <div class="row pull-center">
+                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
+            </div>
     <!-- /#page-content-wrapper -->
 
 </div>
