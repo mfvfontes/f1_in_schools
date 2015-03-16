@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Title</title>
+    <title>Your Profile</title>
     <meta charset="UTF-8">
     <meta name=description content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,9 +64,10 @@
                 </div>
             </div>
             <div class="row">
-                <ul class="list-group">
-                    <li class="list-group-item text-muted" contenteditable="false">Profile</li>
-                    <li class="list-group-item text-right">
+                <div class="col-sm-6 col-md-6 col-lg-8 pull-right">
+                    <ul class="list-group">
+                        <li class="list-group-item text-muted" contenteditable="false">Profile</li>
+                        <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
                                 Birth Date
@@ -85,8 +86,10 @@
                     </ul>
                 </div>
             </div>
+			
             <div class="row">
                 <ul class="list-group">
+				<div class="col-sm-6 col-md-6 col-lg-8 pull-left">
                     <li class="list-group-item text-muted" contenteditable="false">Profile</li>
                     <li class="list-group-item text-right">
                         <span class="pull-left">
@@ -122,36 +125,18 @@
                     </li>
                 </ul>
 
-                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+               
             </div>
-
-            <div class="row">
-                <h3>
-                    Friends
-                </h3>
-                <a href="#" class="thumbnail">
-                    <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10395846_242491799280041_6677937232684072250_n.jpg?oh=35da463068849ab0de086930f32468e9&oe=5585922F&__gda__=1433738662_4abc67140b614652874b584597e236f3" class="img-responsive" alt="Image">
-                    Jorge Wolfs
-                </a>
-                <a href="#" class="thumbnail">
-                    <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10420325_242491802613374_2386373263950269654_n.jpg?oh=e71c3b26f6a7b7d9d394f48d23fa1320&oe=557A70C3&__gda__=1435086623_486f66c7f0e7700bf2ae0dca6ce8bfd1" class="img-responsive" alt="Image">
-                    Duarte Frazão
-                </a>
-                <a href="#" class="thumbnail">
-                    <img src="https://scontent-mad.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10173754_242491785946709_5027555459251999978_n.jpg?oh=06183e0f1866de5260cab99d742ac08e&oe=5588643A" class="img-responsive" alt="Image">
-                    João Carvalho
-                </a>
-                <a href="#" class="thumbnail">
-                    <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10350436_242491812613373_5957730412234278246_n.jpg?oh=62be9be78f28d1a4b1592c534708536d&oe=55814423&__gda__=1434675017_86d3c77b96ecd0d2a08b8a4ccefa5f58" class="img-responsive" alt="Image">
-                    Renato Campos
-                </a>
-            </div>
-
-
-            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+			</div>
 
         </div>
     </div>
+	
+	
+	 <div class="row pull-center">
+                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
+            </div>
     <!-- /#page-content-wrapper -->
 
 </div>
