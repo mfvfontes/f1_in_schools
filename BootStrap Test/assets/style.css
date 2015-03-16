@@ -69,3 +69,11 @@ h4 {
 .row.header > .logo {
     text-align: center;
 }
+
+table {
+    text-align: left;
+}
+
+.reply {
+    text-align: left;
+}

@@ -58,66 +58,119 @@
 
                 </div>
                 <div class=" col-sm-4 col-md-4 col-lg-4">
-                    <h5>Search</h5>
                     <h1>Forum</h1> <br>
 
                 </div>
 
-                <div class="col-lg-6">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Team Name">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Submit</button>
-                        </span>
-                    </div><!-- /input-group -->
-                </div><!-- /.col-lg-6 -->
 
             </div>
 
             <div class="row">
+
+                <h3>
+                    Competition Regulations
+                </h3>
+
                 <table class="table table-hover">
                     <thead>
                     <tr>
-                        <th>Team Name</th>
-                        <th>Location</th>
-                        <th>Average Score</th>
+                        <th class="col-xs-6 col-sm-6 col-md-6 col-lg-6">Title</th>
+                        <th class="col-xs-3 col-sm-3 col-md-3 col-lg-3">Original Poster</th>
+                        <th class="col-xs-3 col-sm-3 col-md-3 col-lg-3">Last Poster</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
                         <td>
-                            <a href="#">Spectrum</a>
+                            <a href="#">Rule #01</a>
                         </td>
-                        <td>Viseu</td>
-                        <td>923</td>
+                        <td>John Doe</td>
+                        <td>John Doe</td>
                     </tr>
                     <tr>
                         <td>
-                            <a href="#">V-Racers</a>
+                            <a href="#">Rule #04</a>
                         </td>
-                        <td>Viseu</td>
-                        <td>700</td>
+                        <td>John Doe</td>
+                        <td>John Doe</td>
                     </tr>
                     <tr>
                         <td>
-                            <a href="#">CarbonSport</a>
+                            <a href="#">Rule #21</a>
                         </td>
-                        <td>Viseu</td>
-                        <td>210</td>
+                        <td>John Doe</td>
+                        <td>John Doe</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Rule #31</a>
+                        </td>
+                        <td>John Doe</td>
+                        <td>John Doe</td>
                     </tr>
                     </tbody>
                 </table>
-            </div>
-
-
-            <div class="row">
-                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
 
             </div>
+        <div class="row">
+
+            <h3>
+                Technical Regulations
+            </h3>
+
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th class="col-xs-6 col-sm-6 col-md-6 col-lg-6">Title</th>
+                    <th class="col-xs-3 col-sm-3 col-md-3 col-lg-3">Original Poster</th>
+                    <th class="col-xs-3 col-sm-3 col-md-3 col-lg-3">Last Poster</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <a href="#">Rule #01</a>
+                    </td>
+                    <td>John Doe</td>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#">Rule #04</a>
+                    </td>
+                    <td>John Doe</td>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#">Rule #21</a>
+                    </td>
+                    <td>John Doe</td>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#">Rule #31</a>
+                    </td>
+                    <td>John Doe</td>
+                    <td>John Doe</td>
+                </tr>
+                </tbody>
+            </table>
+
+
 
         </div>
+
+
+        <div class="row">
+            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
+        </div>
+
     </div>
-    <!-- /#page-content-wrapper -->
+</div>
+<!-- /#page-content-wrapper -->
 
 </div>
 <!-- jQuery -->

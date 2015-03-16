@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Localhost">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Faculdade Engenharia Gnomo">
     <serverData>
+      <paths name="Faculdade Engenharia Gnomo">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/lbaw" local="$PROJECT_DIR$" web="/lbaw" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Gnomo LBAW">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/lbaw" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Localhost">
         <serverdata>
           <mappings>
