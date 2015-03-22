@@ -64,35 +64,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-8 pull-right">
-                    <ul class="list-group">
-                        <li class="list-group-item text-muted" contenteditable="false">Profile</li>
-                        <li class="list-group-item text-right">
-                        <span class="pull-left">
-                            <strong class="">
-                                Birth Date
-                            </strong>
-                        </span>
-                            15/05/1997
-                        </li>
-                        <li class="list-group-item text-right">
-                        <span class="pull-left">
-                            <strong class="">
-                                Team Role
-                            </strong>
-                        </span>
-                            Graphic Designer
-                        </li>
-                    </ul>
-                </div>
-            </div>
-			
-            <div class="row">
                 <ul class="list-group">
 				<div class="col-sm-6 col-md-6 col-lg-8 pull-left">
                     <li class="list-group-item text-muted" contenteditable="false">Profile</li>
                     <li class="list-group-item text-right">
                         <span class="pull-left">
+
                             <strong class="">
                                 Full Name
                             </strong>
