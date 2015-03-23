@@ -63,19 +63,68 @@
 
                 </div>
             </div>
+						
             <div class="row">
-                <ul class="list-group">
-				<div class="col-sm-6 col-md-6 col-lg-8 pull-left">
-                    <li class="list-group-item text-muted" contenteditable="false">Profile</li>
-                    <li class="list-group-item text-right">
+                <div class="col-sm-6 col-md-6 col-lg-8 pull-right">
+                    <ul class="list-group">
+                        <li class="list-group-item text-muted" contenteditable="false">Overview</li>
+						 <li class="list-group-item text-right">
                         <span class="pull-left">
-
                             <strong class="">
                                 Full Name
                             </strong>
                         </span>
                         Miguel José Carvalho Neto
                     </li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Nationality
+                            </strong>
+                        </span>
+                            Portugal
+                        </li>
+						<li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                School
+                            </strong>
+                        </span>
+                            Escola Secundária da Sé - Lamego
+                        </li>
+						<li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Team
+                            </strong>
+                        </span>
+                           The Incredibles
+                        </li>
+                        <li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Gender
+                            </strong>
+                        </span>
+                            Male
+                        </li>
+						<li class="list-group-item text-right">
+                        <span class="pull-left">
+                            <strong class="">
+                                Contact
+                            </strong>
+                        </span>
+                        <a href="mailto:geral.spectrum@gmail.com">miguel.spectrum@gmail.com</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+			
+            <div class="row">
+                <ul class="list-group">
+				<div class="col-sm-6 col-md-6 col-lg-8 ">
+                    <li class="list-group-item text-muted" contenteditable="false">Details About You</li>
+                   
                     <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
@@ -92,14 +141,7 @@
                         </span>
                         Graphic Designer
                     </li>
-                    <li class="list-group-item text-right">
-                        <span class="pull-left">
-                            <strong class="">
-                                Contact
-                            </strong>
-                        </span>
-                        <a href="mailto:geral.spectrum@gmail.com">miguel.spectrum@gmail.com</a>
-                    </li>
+                    
                 </ul>
 
                
