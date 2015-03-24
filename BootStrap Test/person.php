@@ -63,19 +63,20 @@
 
                 </div>
             </div>
-						
+
             <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-8 pull-right">
+                <div class="col-sm-4 col-md-4 col-lg-3"></div>
+                <div class="col-sm-4 col-md-4 col-lg-6">
                     <ul class="list-group">
                         <li class="list-group-item text-muted" contenteditable="false">Overview</li>
-						 <li class="list-group-item text-right">
+                        <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
                                 Full Name
                             </strong>
                         </span>
-                        Miguel José Carvalho Neto
-                    </li>
+                            Miguel José Carvalho Neto
+                        </li>
                         <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
@@ -84,7 +85,7 @@
                         </span>
                             Portugal
                         </li>
-						<li class="list-group-item text-right">
+                        <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
                                 School
@@ -92,13 +93,13 @@
                         </span>
                             Escola Secundária da Sé - Lamego
                         </li>
-						<li class="list-group-item text-right">
+                        <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
                                 Team
                             </strong>
                         </span>
-                           The Incredibles
+                            The Incredibles
                         </li>
                         <li class="list-group-item text-right">
                         <span class="pull-left">
@@ -108,55 +109,37 @@
                         </span>
                             Male
                         </li>
-						<li class="list-group-item text-right">
+                        <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
                                 Contact
                             </strong>
                         </span>
-                        <a href="mailto:geral.spectrum@gmail.com">miguel.spectrum@gmail.com</a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-			
-            <div class="row">
-                <ul class="list-group">
-				<div class="col-sm-6 col-md-6 col-lg-8 ">
-                    <li class="list-group-item text-muted" contenteditable="false">Details About You</li>
-                   
-                    <li class="list-group-item text-right">
-                        <span class="pull-left">
-                            <strong class="">
-                                Birth Date
-                            </strong>
-                        </span>
-                        15/05/1997
-                    </li>
-                    <li class="list-group-item text-right">
+                            <a href="mailto:geral.spectrum@gmail.com">miguel.spectrum@gmail.com</a>
+                        </li>
+                        <li class="list-group-item text-right">
                         <span class="pull-left">
                             <strong class="">
                                 Team Role
                             </strong>
                         </span>
-                        Graphic Designer
-                    </li>
-                    
-                </ul>
+                            Graphic Designer
+                        </li>
+                    </ul>
+                </div>
 
-               
+                <div class="col-sm-4 col-md-4 col-lg-3"></div>
             </div>
-			</div>
 
-        </div>
     </div>
-	
-	
-	 <div class="row pull-center">
-                <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+</div>
 
-            </div>
-    <!-- /#page-content-wrapper -->
+
+<div class="row pull-center">
+    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+
+</div>
+<!-- /#page-content-wrapper -->
 
 </div>
 

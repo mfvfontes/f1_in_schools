@@ -22,7 +22,8 @@
     <div class="container-fluid">
 	<p> <br/></p>
 		<div class="row header">
-			<div class="col-sm-6 col-md-6 col-lg-5 pull-right">
+			<div class="col-sm-3 col-md-3 col-lg-4"></div>
+			<div class="col-sm-6 col-md-6 col-lg-4">
 			
 				
 				<div class="panel panel-default">
@@ -63,8 +64,10 @@
 					</div>
 				
 				</div>
-				
+
 		</div>
+			<div class="col-sm-3 col-md-3 col-lg-4"></div>
+
 		</div>
 	
 	</div>
