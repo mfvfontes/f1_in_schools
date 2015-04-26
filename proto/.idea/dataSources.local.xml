@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - lbaw1426@vdbm.fe.up.pt" uuid="ef45a4a1-c1cf-4d36-ad08-f9dce69eef99">
+      <secret-storage>master_key</secret-storage>
+      <user-name>lbaw1426</user-name>
+      <schema-pattern>lbaw1426.f1_proto lbaw1426.pg_catalog lbaw1426.public</schema-pattern>
+      <default-schemas>lbaw1426.pg_catalog lbaw1426.public</default-schemas>
+    </data-source>
+  </component>
+</project>

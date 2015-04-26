@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3996609841">
+    <data-source source="LOCAL" name="PostgreSQL - lbaw1426@vdbm.fe.up.pt" uuid="ef45a4a1-c1cf-4d36-ad08-f9dce69eef99">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://vdbm.fe.up.pt:5432/lbaw1426</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
