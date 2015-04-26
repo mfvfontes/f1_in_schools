@@ -19,10 +19,12 @@ include_once($BASE_DIR .'database/registrations.php');
     {
         if ($email != null) {
             echo("<br><p>$email</p>");
-            registerJury($email, 1);
-            mail($email, "F1 in Schools Jury Invitation", "Please follow this link");
+            $token = generateToken($email);
+            registerJury($email, 1, $token);
+            $link = 'gnomo.fe.up.pt' . $BASE_URL . 'pages/registrations/confirm_registration.php?token=' . $token;
+            mail($email, "F1 in Schools Jury Invitation", "Please follow this link " . $link);
         } else {
-            echo ("Email empty");
+            echo ("<br><p>Email Empty</p>");
         }
 
     }

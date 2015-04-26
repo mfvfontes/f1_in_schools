@@ -1,13 +1,13 @@
 <?php
 
-function registerJury($email, $orgID)
+function registerJury($email, $orgID, $token)
 {
     global $conn;
     $stmt = $conn->prepare("INSERT INTO registrations (token,email,orgID,rType) VALUES (?, ?, ?, 1)");
-    return $stmt->execute(array(generateToken(), $email, $orgID));
+    return $stmt->execute(array($token, $email, $orgID));
 }
 
-function generateToken()
+function generateToken($email)
 {
-    return substr(str_shuffle(MD5(microtime())), 0, 10);
+    return substr(str_shuffle(MD5(microtime() . $email)), 0, 10);
 }
