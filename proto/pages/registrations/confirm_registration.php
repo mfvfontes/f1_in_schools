@@ -11,10 +11,11 @@ include_once('../../config/init.php');
 $token = $_GET['token'];
 
 global $conn;
-$stmt = $conn->prepare("select email from registrations where token = ?");
+$stmt = $conn->prepare("select (email,rType) from registrations where token = ?");
 $stmt->execute(array($token));
 
 $email = $stmt->fetch()['email'];
+$email = $stmt->fetch()['rType'];
 
 $smarty->assign('title','Confirm Registration');
 $smarty->assign('email',$email);
