@@ -7,9 +7,35 @@
             </a>
         </li>
         <li class="divider"></li>
-        <li>
-            Welcome {$USERNAME}
-        </li>
+
+
+        {if !is_null($smarty.session.name)}
+
+            <li>
+                Welcome {$smarty.session.name}
+            </li>
+            <li>
+                <a href="{$BASE_URL}/actions/users/logout.php">Log Out</a>
+            </li>
+        {else}
+            <li id="login">
+                <form role="form" id="log_form" action="{$BASE_URL}actions/users/login.php" method="post">
+                    <label for="email" class="sr-only">Name</label>
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <label for="logpassword" class="sr-only">Password</label>
+                    <div class="input-group">
+                        <input type="password" name="password" id="logpassword" class="form-control" placeholder="Password" required>
+                    </div>
+
+                    <button class="btn btn-default btn-xs" type="submit">Log In</button>
+                </form>
+
+            </li>
+
+        {/if}
+
         <li class="divider"></li>
         <li>
             <a href="#">Profile</a>

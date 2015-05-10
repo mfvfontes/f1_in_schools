@@ -23,15 +23,10 @@
   $smarty->compile_dir = $BASE_DIR . 'templates_c/';
   $smarty->assign('BASE_URL', $BASE_URL);
 
-/* TESTING */
-  $_SESSION['username'] = "João Neto";
-/* END TESTING */
-
   $smarty->assign('ERROR_MESSAGES', $_SESSION['error_messages']);  
   $smarty->assign('FIELD_ERRORS', $_SESSION['field_errors']);
   $smarty->assign('SUCCESS_MESSAGES', $_SESSION['success_messages']);
   $smarty->assign('FORM_VALUES', $_SESSION['form_values']);
-  $smarty->assign('USERNAME', $_SESSION['username']);
   
   unset($_SESSION['success_messages']);
   unset($_SESSION['error_messages']);  

@@ -20,11 +20,13 @@ $stmt = $conn->prepare("SELECT * FROM Users WHERE (email = ?) ");
 $stmt->execute(array($_POST['email']));
 $result = $stmt->fetchAll();
 
+$_SESSION['form_values'] = $_POST;
 $_SESSION['error_messages'] = array();
 
 
+var_dump($_POST);
 if($result != null){
-    $_SESSION['error_messages'][] = 'Email already on use';
+    $_SESSION['error_messages'][] = 'Email already on use, please log in';
     $error = true;
 }
 /**
@@ -61,6 +63,20 @@ if($error) {
 else{
     $hash = password_hash($_POST['password'], PASSWORD_BCRYPT);
 
-    $stmt = $conn->prepare("INSERT INTO Users (password, name, birthdate, gender, email, cCode) VALUES (?, ?, ?, ?, ?, ?)");
-    return $stmt->execute(array($hash, $_POST['name'], $_POST['dob'], $_POST['gender'], $_POST['email'], $_POST['country']));
+    switch ($_POST['rType'])
+    {
+        case "1":     /* JURY */
+            $stmt = $conn->prepare("SELECT insertjury(?,?,?,?,?,?,?)");
+            $stmt->execute(array($hash, $_POST['name'], $_POST['dob'], $_POST['gender'], strtolower($_POST['email']) , $_POST['country'], $_POST['rID']));
+            break;
+        case "2":     /* ORGANIZER */
+            $stmt = $conn->prepare("SELECT insertorganizer(?,?,?,?,?,?,?)");
+            $stmt->execute(array($hash, $_POST['name'], $_POST['dob'], $_POST['gender'], strtolower($_POST['email']), $_POST['country'], $_POST['rID']));
+            break;
+        case "3":     /* MANAGER */
+            $stmt = $conn->prepare("SELECT insertmanager(?,?,?,?,?,?,?,?)");
+            $stmt->execute(array($hash, $_POST['name'], $_POST['dob'], $_POST['gender'], strtolower($_POST['email']), $_POST['country'], $_POST['rID'], $_POST['school']));
+            break;
+
+    }
 }

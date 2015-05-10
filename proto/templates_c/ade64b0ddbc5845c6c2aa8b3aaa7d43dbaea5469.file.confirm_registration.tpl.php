@@ -1,8 +1,55 @@
-{include file='common/header.tpl'}
+<?php /* Smarty version Smarty-3.1.15, created on 2015-04-28 01:07:30
+         compiled from "/opt/lbaw/lbaw1426/public_html/proto/templates/registrations/confirm_registration.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:517745170553d60b09dcc38-61589774%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'ade64b0ddbc5845c6c2aa8b3aaa7d43dbaea5469' => 
+    array (
+      0 => '/opt/lbaw/lbaw1426/public_html/proto/templates/registrations/confirm_registration.tpl',
+      1 => 1430153742,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '517745170553d60b09dcc38-61589774',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.15',
+  'unifunc' => 'content_553d60b0a72f50_58998556',
+  'variables' => 
+  array (
+    'BASE_URL' => 0,
+    'title' => 0,
+    'ERROR_MESSAGES' => 0,
+    'foo' => 0,
+    'email' => 0,
+    'rType' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_553d60b0a72f50_58998556')) {function content_553d60b0a72f50_58998556($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ('common/header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 
 
-{if !is_null($ERROR_MESSAGES)}
+<div class="row header">
+    <div class="col-sm-2 col-md-2 col-lg-2 logo">
+
+        <img src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+images/assets/register.png" alt="Image">
+
+    </div>
+    <div class=" col-sm-10 col-md-10 col-lg-10">
+
+        <h1><?php echo $_smarty_tpl->tpl_vars['title']->value;?>
+</h1>
+        <h5>Complete your registration:</h5>
+
+
+    </div>
+</div>
+
+<?php if (!is_null($_smarty_tpl->tpl_vars['ERROR_MESSAGES']->value)) {?>
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
         <div class="panel panel-danger">
@@ -10,26 +57,24 @@
                 Errors in the form are listed below
             </div>
             <div class="panel-body">
-                {foreach from=$ERROR_MESSAGES item=foo}
+                <?php  $_smarty_tpl->tpl_vars['foo'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['foo']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['ERROR_MESSAGES']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['foo']->key => $_smarty_tpl->tpl_vars['foo']->value) {
+$_smarty_tpl->tpl_vars['foo']->_loop = true;
+?>
                     <p>
-                        {$foo}
+                        <?php echo $_smarty_tpl->tpl_vars['foo']->value;?>
+
                     </p>
-                {/foreach}
+                <?php } ?>
             </div>
         </div>
     </div>
-{/if}
-
-<h1>
-    {if is_null($email)}
-        Email is Null
-    {/if}
-    {$email}
-    {$rType}
-</h1>
+<?php }?>
 
 
-<form role="form" id="reg_form" action="{$BASE_URL}actions/registrations/complete_registration.php" method="post">
+<form role="form" id="reg_form" action="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+actions/registrations/complete_registration.php" method="post">
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
 
@@ -54,7 +99,7 @@
                     <input type="password" name="confirm_password" id="confirm_password" class="form-control" placeholder="Re-enter Password" required>
                 </div>
 
-                <label for="country" class="sr-only">Country</label>
+                <label for="inputCountry" class="sr-only">Country</label>
                 <div class="input-group">
                     <span class="input-group-addon"><span class="glyphicon glyphicon-flag"></span></span>
                     <select name="country" id="country" class="form-control" required>
@@ -309,14 +354,14 @@
                     </select>
                 </div>
 
-                <label for="birthday" class="sr-only">Birth Date</label>
+                <label for="birthday" class="sr-only">Birthday:</label>
                 <div class="input-group">
                     <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
                     <input type="date" name="dob" value="" class="form-control" placeholder="Select Date" required />
                 </div>
 
                 <div class="checkboxGender">
-                    <label for="Gender" class="control-label">
+                    <label for="Gender" class="control-label ">
                         <label class="radio-inline">
                             <input type="radio" name="gender" value="M" checked> Male
                         </label>
@@ -324,24 +369,16 @@
                         <label class="radio-inline">
                             <input type="radio" name="gender" value="F" > Female
                         </label>
+
                     </label>
                 </div>
-                {if ! is_null($schools)}
-                    <label for="school" class="sr-only">Country</label>
-                    <div class="input-group">
-                        <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
-                        <select id="schoolSelect" class="form-control" name="schoolID">
-                            <option value=""></option>
-                            {foreach from=$schools item=school}
-                                <option value="{$school.schoolid}">{$school.name}</option>
-                            {/foreach}
-                        </select>
-                    </div>
-                {/if}
 
-                <input type="hidden" value="{$email}" name="email">
-                <input type="hidden" value="{$rType}" name="rType">
-                <input type="hidden" value="{$rID}" name="rID">
+                <div style="display: none">
+                    <input type="email" value="<?php echo $_smarty_tpl->tpl_vars['email']->value;?>
+" name="email">
+                    <input type="text" value="<?php echo $_smarty_tpl->tpl_vars['rType']->value;?>
+" name="rType">
+                </div>
 
                 <button class="btn btn-lg  btn-block" type="submit">Sign Up</button>
             </div>
@@ -351,28 +388,24 @@
 
 </form>
 
-
 <!-- jQuery -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 
+<script src="//cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.js"></script>
 <script src="//cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js"></script>
 
-<script src="{$BASE_URL}/javascript/registrations/form_validation.js"></script>
-<script src="{$BASE_URL}/javascript/searchable/jquery.searchabledropdown-1.0.8.min.js"></script>
-<script src="{$BASE_URL}/javascript/searchable/jquery.searchabledropdown-1.0.8.src.js"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+/javascript/registrations/form_validation.js"></script>
 
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $("#schoolSelect").searchable();
-    });
-</script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['BASE_URL']->value;?>
+/javascript/registration.js"></script>
 
-<script src="{$BASE_URL}/javascript/registration.js"></script>
-
-{include file='common/footer.tpl'}
+<?php echo $_smarty_tpl->getSubTemplate ('common/footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 
 
 
+
+<?php }} ?>

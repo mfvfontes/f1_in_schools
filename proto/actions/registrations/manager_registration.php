@@ -2,32 +2,36 @@
 include_once('../../config/init.php');
 include_once($BASE_DIR .'database/registrations.php');
 
-
-
 ?>
 
 <html>
 
 <body>
     <?php
+
     var_dump($_POST);
 
-    echo("<br>");
-
     $emails = $_POST["email"];
+
+    $headers = 'From: f1inschools@example.com';
+
     foreach($emails as $email)
     {
         if ($email != null) {
             echo("<br><p>$email</p>");
             $token = generateToken($email);
-            registerJury($email, 1, $token);
+            registerManager($email, 1, $token);
+
             $link = 'gnomo.fe.up.pt' . $BASE_URL . 'pages/registrations/confirm_registration.php?token=' . $token;
-            mail($email, "F1 in Schools Jury Invitation", "Please follow this link " . $link);
+            mail($email, "F1 in Schools Manager Invitation", "Please follow this link " . $link, $headers);
+
         } else {
-            echo ("<br><p>Email Empty</p>");
+            echo ("<p>Email Empty</p>");
         }
 
     }
+
+    //header('Location: pages/registrations/register_juries.php');
 
 
     ?>

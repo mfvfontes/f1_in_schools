@@ -2,6 +2,9 @@
 include_once('../../config/init.php');
 
 $smarty->assign('title', 'Register Juries');
-$smarty->assign('action_page', 'j_registration.php');
+$smarty->assign('title_image', 'register.png');
+$smarty->assign('subtitle', 'Insert e-mail addresses');
 
-$smarty->display('registrations/registration.tpl');
+$smarty->assign('action_page', 'jury_registration.php');
+
+$smarty->display('registrations/email_list.tpl');
