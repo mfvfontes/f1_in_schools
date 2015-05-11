@@ -23,6 +23,10 @@ var_dump($reg);
 echo("<br>");
 var_dump($schools);
 
+$countries = getCountries();
+
+$smarty->assign('countries', $countries);
+
 $smarty->assign('rID', $reg['regid']);
 $smarty->assign('email' ,$reg['email']);
 $smarty->assign('rType' ,$reg['rtype']);

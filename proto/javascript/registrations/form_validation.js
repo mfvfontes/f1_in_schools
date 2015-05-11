@@ -39,6 +39,10 @@ $().ready(function() {
                 required: true,
                 minlength: 5
             },
+            oldPassword: {
+                required: true,
+                minlength: 5
+            },
             confirm_password: {
                 required: true,
                 minlength: 5,
@@ -85,6 +89,10 @@ $().ready(function() {
                 minlength: "email entered is too short"
             },
             password: {
+                required: "Please provide a password",
+                minlength: "Your password must be at least 5 characters long"
+            },
+            oldPassword: {
                 required: "Please provide a password",
                 minlength: "Your password must be at least 5 characters long"
             },

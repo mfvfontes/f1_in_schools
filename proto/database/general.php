@@ -13,3 +13,11 @@ function getSchools()
     $stmt->execute(array());
     return $stmt->fetchAll();
 }
+
+function getCountries()
+{
+    global $conn;
+    $stmt = $conn->prepare("SELECT * FROM countries");
+    $stmt->execute(array());
+    return $stmt->fetchAll();
+}

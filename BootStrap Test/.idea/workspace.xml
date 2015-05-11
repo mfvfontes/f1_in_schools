@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a34f5f0-dcea-41fc-aac1-621c422be696" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../proto/images/assets/F1_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../proto/templates/search.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../proto/javascript/search/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/templates_c/10b5058a9b71b148d67e18296f5f46655c287e39.file.footer.tpl.php" afterPath="$PROJECT_DIR$/../proto/templates_c/10b5058a9b71b148d67e18296f5f46655c287e39.file.footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/templates_c/9a1e2767dd412d92465c2eb879d286618f1986cb.file.header.tpl.php" afterPath="$PROJECT_DIR$/../proto/templates_c/9a1e2767dd412d92465c2eb879d286618f1986cb.file.header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/templates_c/ade64b0ddbc5845c6c2aa8b3aaa7d43dbaea5469.file.confirm_registration.tpl.php" afterPath="$PROJECT_DIR$/../proto/templates_c/ade64b0ddbc5845c6c2aa8b3aaa7d43dbaea5469.file.confirm_registration.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/templates_c/bc31e2da46df115f232ccd89753d3173d6ff4ea3.file.sidebar.tpl.php" afterPath="$PROJECT_DIR$/../proto/templates_c/bc31e2da46df115f232ccd89753d3173d6ff4ea3.file.sidebar.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/block.textformat.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/block.textformat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/pages/registrations/confirm_registration.php" afterPath="$PROJECT_DIR$/../proto/pages/registrations/confirm_registration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/templates/registrations/confirm_registration.tpl" afterPath="$PROJECT_DIR$/../proto/templates/registrations/confirm_registration.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/javascript/registrations/form_validation.js" afterPath="$PROJECT_DIR$/../proto/javascript/registrations/form_validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.counter.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.counter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.cycle.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.cycle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.fetch.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.fetch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.mailto.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.mailto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.math.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/function.math.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/database/general.php" afterPath="$PROJECT_DIR$/../proto/database/general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/actions/users/login.php" afterPath="$PROJECT_DIR$/../proto/actions/users/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.escape.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.escape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.replace.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.spacify.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.spacify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.truncate.php" afterPath="$PROJECT_DIR$/../proto/lib/smarty/plugins/modifier.truncate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/templates/common/sidebar.tpl" afterPath="$PROJECT_DIR$/../proto/templates/common/sidebar.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/database/users.php" afterPath="$PROJECT_DIR$/../proto/database/users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../proto/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../proto/.idea/workspace.xml" />
     </list>
     <ignored path="BootStrap Test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,18 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-01.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/search-01.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2397">
-              <caret line="105" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.5963303" vertical-offset="1137" max-vertical-offset="2397">
+              <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -58,7 +74,7 @@
       <file leaf-file-name="thread.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.730769" vertical-offset="642" max-vertical-offset="2499">
+            <state vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="2499">
               <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
@@ -189,6 +205,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,7 +240,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,15 +287,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="4331b4ba-b51c-47d7-8c32-066c8995c021" server_name="Localhost">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="4331b4ba-b51c-47d7-8c32-066c8995c021" server_name="Localhost">
       <method />
     </configuration>
     <list size="0" />
@@ -311,8 +327,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -321,21 +337,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3464448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3517398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18954249" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19281046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -357,9 +373,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34189406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -690,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="2397">
-          <caret line="105" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="135" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="2431">
@@ -755,10 +763,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.730769" vertical-offset="642" max-vertical-offset="2499">
+        <state vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="2499">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/search-01.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/team.php">
@@ -769,9 +782,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/search-01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5963303" vertical-offset="1137" max-vertical-offset="2397">
+          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

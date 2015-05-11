@@ -27,6 +27,16 @@ function getID($email) {
                             FROM users
                             WHERE email = ?");
     $stmt->execute(array($email));
-    return $stmt->fetch()['userID'];
+    return $stmt->fetch()['userid'];
+}
+
+
+function getUserInformation($userID){
+    global $conn;
+    $stmt = $conn->prepare("SELECT *
+                            FROM users
+                            WHERE userid = ?");
+    $stmt->execute(array($userID));
+    return $stmt->fetch();
 }
 ?>

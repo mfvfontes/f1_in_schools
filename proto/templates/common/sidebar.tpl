@@ -17,6 +17,32 @@
             <li>
                 <a href="{$BASE_URL}/actions/users/logout.php">Log Out</a>
             </li>
+
+            <li class="divider"></li>
+            <li>
+                <a href="{$BASE_URL}pages/search/users.php">Users</a>
+            </li>
+            <li>
+                <a href="#">Profile</a>
+            </li>
+            <li>
+                <a href="#">Team</a>
+            </li>
+            <li class="divider"> </li>
+            <li>
+                <a href="{$BASE_URL}pages/users/edit_profile.php">Edit Profile</a>
+
+            <li>
+                <a href="{$BASE_URL}pages/users/edit_password.php">Change Password</a>
+            </li>
+            <li>
+                <a href="#">Insert Photo</a>
+            </li>
+            <li class="divider"> </li>
+            <li>
+                <a href="#">Contacts </a>
+            </li>
+
         {else}
             <li id="login">
                 <form role="form" id="log_form" action="{$BASE_URL}actions/users/login.php" method="post">
@@ -36,24 +62,7 @@
 
         {/if}
 
-        <li class="divider"></li>
-        <li>
-            <a href="#">Profile</a>
-        </li>
-        <li>
-            <a href="#">Team</a>
-        </li>
-        <li class="divider"> </li>
-        <li>
-            <a href="#">Edit Profile</a>
-        </li>
-        <li>
-            <a href="#">Insert Photo</a>
-        </li>
-        <li class="divider"> </li>
-        <li>
-            <a href="#">Contacts </a>
-        </li>
+
     </ul>
 
 </div>
